@@ -4,64 +4,33 @@ using UnityEngine;
 
 public class PatrollingScript : MonoBehaviour
 {
-    [SerializeField]
-    float speed;
-    float distance = 0.5f;
-    bool movingRight = true;
+    [SerializeField] Transform leftPos;
+    [SerializeField] Transform rightPos;
+    [SerializeField] float speed;
 
-    [SerializeField]
-    Transform groundDetection;
-
-    [SerializeField]
-    GameObject player;
-    bool playerDetected;
+    Vector3 nextPos;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.x > this.transform.position.x)
+        bool left = GameObject.Find("PlayerDetector").GetComponent<DetectedPlayer>().onLeft;
+        bool right = GameObject.Find("PlayerDetector").GetComponent<DetectedPlayer>().onRight;
+
+        if (left)
         {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
-            movingRight = true;
+            nextPos = leftPos.position;
+            transform.position = Vector3.MoveTowards(transform.position, nextPos, speed * Time.deltaTime);
         }
-        else if(playerDetected && player.transform.position.x < this.transform.position.x)
+        else if (right)
         {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
-            transform.eulerAngles = new Vector3(0, -180, 0);
-            movingRight = false;
-        }
-
-
-        RaycastHit2D ground = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
-        if (ground.collider == false)
-        {
-            if (movingRight == true)
-            {
-                transform.eulerAngles = new Vector3(0, -180, 0);
-                movingRight = false;
-            }
-            else
-            {
-                transform.eulerAngles = new Vector3(0, 0, 0);
-                movingRight = true;
-            }
-        }
-           
-
-        //print(playerDetected);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.transform.tag == "Player")
-        {
-            playerDetected = true;
+            nextPos = rightPos.position;
+            transform.position = Vector3.MoveTowards(transform.position, nextPos, speed * Time.deltaTime);
         }
     }
 }
