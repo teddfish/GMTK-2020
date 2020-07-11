@@ -11,6 +11,10 @@ public class PatrollingScript : MonoBehaviour
 
     [SerializeField]
     Transform groundDetection;
+
+    [SerializeField]
+    GameObject player;
+    bool playerDetected;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +24,18 @@ public class PatrollingScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        if (player.transform.position.x > this.transform.position.x)
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            movingRight = true;
+        }
+        else if(playerDetected && player.transform.position.x < this.transform.position.x)
+        {
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, -180, 0);
+            movingRight = false;
+        }
+
 
         RaycastHit2D ground = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
         if (ground.collider == false)
@@ -35,7 +50,17 @@ public class PatrollingScript : MonoBehaviour
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 movingRight = true;
             }
+        }
+           
 
+        print(playerDetected);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag == "Player")
+        {
+            playerDetected = true;
         }
     }
 }
