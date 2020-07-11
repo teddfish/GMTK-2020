@@ -21,18 +21,24 @@ public class PlayerController : MonoBehaviour
     public float rad;
     public LayerMask groundGround;
 
-    PlatformEffector2D effector;
-    float pressTimer;
+    public GameObject[] portals;
+    float inputWaitTimer = 2f;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        effector = GetComponent<PlatformEffector2D>(); 
+        portals = GameObject.FindGameObjectsWithTag("Portals");
     }
 
     // Update is called once per frame
     void Update()
     {
+        /*
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Teleport();
+        }*/
         /*
         move = Input.GetAxis("Horizontal");
 
@@ -50,6 +56,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
         {
+            Teleport();
             rb.velocity = Vector2.up * jumpForce;
             isOnGround = false;
         }
@@ -60,9 +67,17 @@ public class PlayerController : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
+        inputWaitTimer += Time.deltaTime;
 
+        if (move < 0 && inputWaitTimer > 1)
+        {
+            Teleport();
+            inputWaitTimer = 0;
+        }
+        else if (move > 0 && inputWaitTimer > 1)
+        {
+            Teleport();
+            inputWaitTimer = 0;
         }
     }
 
@@ -90,6 +105,13 @@ public class PlayerController : MonoBehaviour
             turner.x *= -1;
             transform.localScale = turner;
         }
+    }
+
+    void Teleport()
+    {
+        int randomNum = Random.Range(0, portals.Length);
+
+        this.transform.position = portals[randomNum].transform.position;
     }
 
 }
