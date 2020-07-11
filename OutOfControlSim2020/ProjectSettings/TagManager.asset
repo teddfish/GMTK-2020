@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platforms
   - Portals
+  - Camera Targets
   layers:
   - Default
   - TransparentFX
