@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Platforms
+  - Portals
   layers:
   - Default
   - TransparentFX
@@ -13,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - platforms
+  - player
+  - portals
   - 
   - 
   - 
@@ -40,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: platforms
+    uniqueID: 3048359339
+    locked: 0
+  - name: player
+    uniqueID: 3823922563
+    locked: 0
+  - name: portals
+    uniqueID: 3029353627
     locked: 0
