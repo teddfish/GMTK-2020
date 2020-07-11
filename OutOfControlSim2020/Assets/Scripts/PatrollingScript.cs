@@ -15,6 +15,7 @@ public class PatrollingScript : MonoBehaviour
     [SerializeField]
     GameObject player;
     bool playerDetected;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,7 +54,7 @@ public class PatrollingScript : MonoBehaviour
         }
            
 
-        print(playerDetected);
+        //print(playerDetected);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

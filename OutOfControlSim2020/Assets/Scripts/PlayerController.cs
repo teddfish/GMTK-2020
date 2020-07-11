@@ -120,4 +120,11 @@ public class PlayerController : MonoBehaviour
         this.transform.position = portals[randomNum].transform.position;
     }
 
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Collectibles"))
+    //    {
+    //        Destroy(collision.gameObject);
+    //    }
+    //}
 }
