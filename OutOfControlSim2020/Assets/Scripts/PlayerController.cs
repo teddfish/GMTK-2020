@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour
             Teleport();
         }
 
-        print(move);
+        //print(move);
     }
 
     void Turn()
