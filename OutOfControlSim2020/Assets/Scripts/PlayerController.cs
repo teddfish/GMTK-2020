@@ -23,6 +23,9 @@ public class PlayerController : MonoBehaviour
 
     public GameObject[] portals;
     float inputWaitTimer = 2f;
+    bool turnedLeft;
+    bool turnedRight;
+    Vector2 currentPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +37,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        currentPosition = transform.position;
         /*
         if (Input.GetKeyDown(KeyCode.K))
         {
@@ -67,18 +71,18 @@ public class PlayerController : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
 
-        inputWaitTimer += Time.deltaTime;
+        //inputWaitTimer += Time.deltaTime;
 
-        if (move < 0 && inputWaitTimer > 1)
-        {
-            Teleport();
-            inputWaitTimer = 0;
-        }
-        else if (move > 0 && inputWaitTimer > 1)
-        {
-            Teleport();
-            inputWaitTimer = 0;
-        }
+        //if (transform.localScale.x > 0 && move < 0 && inputWaitTimer > 1)
+        //{
+        //    Teleport();
+        //    inputWaitTimer = 0;
+        //}
+        //else if (transform.localScale.x < 0 && move > 0 && inputWaitTimer > 1)
+        //{
+        //    Teleport();
+        //    inputWaitTimer = 0;
+        //}
     }
 
     private void FixedUpdate()
@@ -86,25 +90,27 @@ public class PlayerController : MonoBehaviour
         move = Input.GetAxis("Horizontal");
 
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
+
         if (!lookingRight && move > 0)
         {
             Turn();
+            Teleport();
         }
         else if (lookingRight && move < 0)
         {
             Turn();
+            Teleport();
         }
+
+        print(move);
     }
 
     void Turn()
     {
-        if (!lookingRight)
-        {
-            lookingRight = !lookingRight;
-            Vector3 turner = transform.localScale;
-            turner.x *= -1;
-            transform.localScale = turner;
-        }
+        lookingRight = !lookingRight;
+        Vector3 turner = transform.localScale;
+        turner.x *= -1;
+        transform.localScale = turner;
     }
 
     void Teleport()
