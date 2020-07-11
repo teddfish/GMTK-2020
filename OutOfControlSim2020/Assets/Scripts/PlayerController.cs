@@ -13,12 +13,21 @@ public class PlayerController : MonoBehaviour
     bool isOnGround = true;
     float fallMultiplier = 2f;
 
+
     bool lookingRight = true;
     Rigidbody2D rb;
+
+    public Transform groundCheck;
+    public float rad;
+    public LayerMask groundGround;
+
+    PlatformEffector2D effector;
+    float pressTimer;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        effector = GetComponent<PlatformEffector2D>(); 
     }
 
     // Update is called once per frame
@@ -37,16 +46,23 @@ public class PlayerController : MonoBehaviour
             Turn();
         } */
 
+        isOnGround = Physics2D.OverlapCircle(groundCheck.position, rad, groundGround);
+
         if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
         {
             rb.velocity = Vector2.up * jumpForce;
             isOnGround = false;
         }
-        print(jump);
+        //print(jump);
 
         if (rb.velocity.y > 0)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+
         }
     }
 
@@ -76,11 +92,4 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Platforms"))
-        {
-            isOnGround = true;
-        }
-    }
 }
