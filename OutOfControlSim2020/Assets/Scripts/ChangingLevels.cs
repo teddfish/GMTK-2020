@@ -15,7 +15,7 @@ public class ChangingLevels : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find("Score").GetComponent<ScoreManager>().canSwitchLevels)
+        if (GameObject.Find("Score").GetComponent<ScoreManager>().canSwitchLevels || Input.GetKeyDown(KeyCode.Delete))
         {
             EndScreen.gameObject.SetActive(true);
 
@@ -28,7 +28,9 @@ public class ChangingLevels : MonoBehaviour
         yield return new WaitForSeconds(5f);
 
         int newBI = SceneManager.GetActiveScene().buildIndex + 1;
-
         SceneManager.LoadScene(newBI);
+
+
     }
+
 }

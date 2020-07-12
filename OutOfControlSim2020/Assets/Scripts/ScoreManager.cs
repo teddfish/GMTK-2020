@@ -33,10 +33,11 @@ public class ScoreManager : MonoBehaviour
         score += coin;
         text.text = score.ToString() + "/" + totalCoins.Length;
 
-        if (score == totalCoins.Length || Input.GetKeyDown(KeyCode.F9))
+        if (score == totalCoins.Length)
         {
             canSwitchLevels = true;
         }
-       
+
+
     }
 }
