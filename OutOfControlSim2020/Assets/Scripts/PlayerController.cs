@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -90,6 +91,12 @@ public class PlayerController : MonoBehaviour
         //    Teleport();
         //    inputWaitTimer = 0;
         //}
+
+        //exiting the game
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     private void FixedUpdate()
@@ -144,7 +151,7 @@ public class PlayerController : MonoBehaviour
 
         this.transform.position = portals[randomNum].transform.position;
         int currentNumber = randomNum;
-        
+
         //print(randomNum);
 
         //int randomNum = Random.Range(0, portals.Length);
