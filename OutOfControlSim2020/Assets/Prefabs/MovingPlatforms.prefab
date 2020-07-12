@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3758407063425676568}
   - component: {fileID: 3758407063425676571}
   - component: {fileID: 3758407063425676570}
-  - component: {fileID: 3758407063425676573}
   - component: {fileID: 3758407063425676572}
+  - component: {fileID: 3743646935193269476}
   m_Layer: 8
   m_Name: MovingPlatforms
   m_TagString: Platforms
@@ -130,27 +130,6 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
---- !u!50 &3758407063425676573
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3758407063425676575}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!114 &3758407063425676572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,3 +146,24 @@ MonoBehaviour:
   finPos: {fileID: 0}
   speed: 5
   startPos: {fileID: 0}
+--- !u!50 &3743646935193269476
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3758407063425676575}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
