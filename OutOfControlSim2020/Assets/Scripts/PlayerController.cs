@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         currentPosition = transform.position;
+
         /*
         if (Input.GetKeyDown(KeyCode.K))
         {
