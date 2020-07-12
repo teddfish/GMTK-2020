@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3304305827436346557}
   - component: {fileID: 8282808478487462942}
   - component: {fileID: 1387309048}
+  - component: {fileID: 623900756}
   m_Layer: 0
   m_Name: Collectible
   m_TagString: Collectibles
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3304305827436346556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.05, y: 21.95, z: -1.63}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,8 +73,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 92ddfcd2b22862e4995aca1e2565d3dd, type: 3}
-  m_Color: {r: 0.8396226, g: 0.40792987, b: 0.83447605, a: 1}
+  m_Sprite: {fileID: -3042775341902697147, guid: a2cf5a8d54d898142a726a3149d017f9,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -112,3 +114,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: 1
+--- !u!95 &623900756
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304305827436346556}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e15d4416f71ea8d4cac72a16d2f5d669, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
