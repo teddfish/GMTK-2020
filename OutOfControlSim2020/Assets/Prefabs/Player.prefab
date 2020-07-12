@@ -105,7 +105,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -467307283419413426, guid: 33812e0ea81007845a2656b2e4a1e4fe,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -177,8 +177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94852b601650d8f4989ecd484be84920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  jumpForce: 20
+  speed: 10
+  jumpForce: 10
   fallMultiplier: 20
   fallSpeed: 30
   groundCheck: {fileID: 3206289448807282806}

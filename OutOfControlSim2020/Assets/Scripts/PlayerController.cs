@@ -169,7 +169,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Collectibles"))
         {
-            playerAudio.PlayOneShot(coinSound, 0.8f);
+            playerAudio.PlayOneShot(coinSound, 0.4f);
         }
     }
 }

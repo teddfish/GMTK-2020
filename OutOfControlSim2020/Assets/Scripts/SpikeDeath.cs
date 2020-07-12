@@ -19,7 +19,14 @@ public class SpikeDeath : MonoBehaviour
         {
             Destroy(collision.gameObject);
             playerAudio.PlayOneShot(deathSound, 0.8f);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+            StartCoroutine(ResetLevel());
         }
+    }
+
+    public IEnumerator ResetLevel()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
