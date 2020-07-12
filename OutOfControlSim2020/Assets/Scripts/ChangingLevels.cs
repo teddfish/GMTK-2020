@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangingLevels : MonoBehaviour
 {
+    public GameObject EndScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +17,18 @@ public class ChangingLevels : MonoBehaviour
     {
         if (GameObject.Find("Score").GetComponent<ScoreManager>().canSwitchLevels)
         {
+            EndScreen.gameObject.SetActive(true);
 
-            int newBI = SceneManager.GetActiveScene().buildIndex + 1;
-
-            SceneManager.LoadScene(newBI);
+            StartCoroutine(ChangeLevels());
         }
+    }
+
+    public IEnumerator ChangeLevels()
+    {
+        yield return new WaitForSeconds(5f);
+
+        int newBI = SceneManager.GetActiveScene().buildIndex + 1;
+
+        SceneManager.LoadScene(newBI);
     }
 }
