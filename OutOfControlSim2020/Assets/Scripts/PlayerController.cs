@@ -30,6 +30,10 @@ public class PlayerController : MonoBehaviour
     bool turnedRight;
     Vector2 currentPosition;
 
+    AudioSource playerAudio;
+    public AudioClip jumpSound;
+    public AudioClip teleportSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,7 +71,7 @@ public class PlayerController : MonoBehaviour
             rb.velocity = Vector2.up * jumpForce;
             isOnGround = false;
         }
-        print(jump);
+        //print(jump);
 
         if (rb.velocity.y > 0)
         {
@@ -140,8 +144,8 @@ public class PlayerController : MonoBehaviour
 
         this.transform.position = portals[randomNum].transform.position;
         int currentNumber = randomNum;
-
-        print(randomNum);
+        
+        //print(randomNum);
 
         //int randomNum = Random.Range(0, portals.Length);
 

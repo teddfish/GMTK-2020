@@ -13,6 +13,7 @@ public class PatrollingScript : MonoBehaviour
 
     private void Update()
     {
+        // this code works
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
         RaycastHit2D ground = Physics2D.Raycast(groundDetection.position, Vector2.down, rayLength);
@@ -30,6 +31,7 @@ public class PatrollingScript : MonoBehaviour
                 goingPlus = true;
             }
         }
+
     }
 
     private void OnDrawGizmos()
