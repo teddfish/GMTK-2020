@@ -11,6 +11,14 @@ public class PatrollingScript : MonoBehaviour
 
     [SerializeField] Transform groundDetection;
 
+    AudioSource playerAudio;
+    public AudioClip deathSound;
+
+    private void Awake()
+    {
+        playerAudio = GetComponent<AudioSource>();    
+    }
+
     private void Update()
     {
         // this code works
@@ -44,9 +52,16 @@ public class PatrollingScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(collision.gameObject);
+            playerAudio.PlayOneShot(deathSound, 0.8f);
 
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            StartCoroutine(ResetLevel());
         }
+    }
+
+    public IEnumerator ResetLevel()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
 }
