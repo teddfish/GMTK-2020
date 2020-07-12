@@ -25,7 +25,7 @@ public class ChangingLevels : MonoBehaviour
 
     public IEnumerator ChangeLevels()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3f);
 
         int newBI = SceneManager.GetActiveScene().buildIndex + 1;
         SceneManager.LoadScene(newBI);
