@@ -37,7 +37,6 @@ public class ScoreManager : MonoBehaviour
         {
             canSwitchLevels = true;
         }
-
-        print(canSwitchLevels);
+       
     }
 }

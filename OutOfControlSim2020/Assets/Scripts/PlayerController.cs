@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     float move;
     float jump;
     bool isOnGround = true;
+    [SerializeField]
     float fallMultiplier = 2f;
 
 
@@ -58,18 +59,18 @@ public class PlayerController : MonoBehaviour
 
         isOnGround = Physics2D.OverlapCircle(groundCheck.position, rad, groundGround);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
-        {
-            Teleport();
-            rb.velocity = Vector2.up * jumpForce;
-            isOnGround = false;
-        }
+        //if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
+        //{
+        //    Teleport();
+        //    rb.velocity = Vector2.up * jumpForce;
+        //    isOnGround = false;
+        //}
         //print(jump);
 
-        if (rb.velocity.y > 0)
-        {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }
+        //if (rb.velocity.y > 0)
+        //{
+        //    rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        //}
 
         //inputWaitTimer += Time.deltaTime;
 
@@ -87,6 +88,19 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
+        {
+            Teleport();
+            rb.velocity = Vector2.up * jumpForce;
+            isOnGround = false;
+        }
+
+        if (rb.velocity.y > 0)
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        //print(move);
+
         move = Input.GetAxis("Horizontal");
 
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
@@ -102,7 +116,6 @@ public class PlayerController : MonoBehaviour
             Teleport();
         }
 
-        //print(move);
     }
 
     void Turn()
@@ -118,7 +131,16 @@ public class PlayerController : MonoBehaviour
         int randomNum = Random.Range(0, portals.Length);
 
         this.transform.position = portals[randomNum].transform.position;
+        int currentNumber = randomNum;
+
+        print(randomNum);
+
+        //int randomNum = Random.Range(0, portals.Length);
+
+        //this.transform.position = portals[randomNum].transform.position;
+        //print(randomNum);
     }
+
 
     //private void OnTriggerEnter2D(Collider2D collision)
     //{
