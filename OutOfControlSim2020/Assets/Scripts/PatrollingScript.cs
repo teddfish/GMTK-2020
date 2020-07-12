@@ -4,33 +4,36 @@ using UnityEngine;
 
 public class PatrollingScript : MonoBehaviour
 {
-    [SerializeField] Transform leftPos;
-    [SerializeField] Transform rightPos;
     [SerializeField] float speed;
+    [SerializeField] float rayLength;
+    bool goingPlus = true;
 
-    Vector3 nextPos;
+    [SerializeField] Transform groundDetection;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
 
+        RaycastHit2D ground = Physics2D.Raycast(groundDetection.position, Vector2.down, rayLength);
+
+        if (ground.collider == false)
+        {
+            if (goingPlus == true)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+                goingPlus = false;
+            }
+            else
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+                goingPlus = true;
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDrawGizmos()
     {
-        bool left = GameObject.Find("PlayerDetector").GetComponent<DetectedPlayer>().onLeft;
-        bool right = GameObject.Find("PlayerDetector").GetComponent<DetectedPlayer>().onRight;
-
-        if (left)
-        {
-            nextPos = leftPos.position;
-            transform.position = Vector3.MoveTowards(transform.position, nextPos, speed * Time.deltaTime);
-        }
-        else if (right)
-        {
-            nextPos = rightPos.position;
-            transform.position = Vector3.MoveTowards(transform.position, nextPos, speed * Time.deltaTime);
-        }
+        Gizmos.DrawRay(groundDetection.position, Vector2.down);
     }
+
 }
