@@ -177,8 +177,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   jumpForce: 20
-  fallMultiplier: 10
-  fallSpeed: 15
+  fallMultiplier: 20
+  fallSpeed: 30
   groundCheck: {fileID: 3206289448807282806}
   rad: 0.1
   groundGround:
@@ -187,6 +187,7 @@ MonoBehaviour:
   portals: []
   jumpSound: {fileID: 8300000, guid: f18faf163f5227f489f15ba99d4c570b, type: 3}
   teleportSound: {fileID: 8300000, guid: 886f5637bfb272247b9da04b8fabb8d7, type: 3}
+  coinSound: {fileID: 8300000, guid: ce88c3a51043dfd42b99074f584cc3d4, type: 3}
 --- !u!82 &1129379582
 AudioSource:
   m_ObjectHideFlags: 0

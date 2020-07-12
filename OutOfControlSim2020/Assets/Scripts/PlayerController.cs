@@ -34,12 +34,14 @@ public class PlayerController : MonoBehaviour
     AudioSource playerAudio;
     public AudioClip jumpSound;
     public AudioClip teleportSound;
+    public AudioClip coinSound;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         portals = GameObject.FindGameObjectsWithTag("Portals");
+        playerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -68,6 +70,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
         {
+            playerAudio.PlayOneShot(jumpSound, 1);
             Teleport();
             rb.velocity = Vector2.up * jumpForce;
             isOnGround = false;
@@ -152,6 +155,7 @@ public class PlayerController : MonoBehaviour
         this.transform.position = portals[randomNum].transform.position;
         int currentNumber = randomNum;
 
+        playerAudio.PlayOneShot(teleportSound, 1);
         //print(randomNum);
 
         //int randomNum = Random.Range(0, portals.Length);
@@ -161,11 +165,11 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Collectibles"))
-    //    {
-    //        Destroy(collision.gameObject);
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Collectibles"))
+        {
+            playerAudio.PlayOneShot(coinSound, 0.8f);
+        }
+    }
 }
