@@ -9,6 +9,7 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI text;
     int score;
     int total;
+    public bool canSwitchLevels;
 
     GameObject[] totalCoins;
     // Start is called before the first frame update
@@ -31,5 +32,12 @@ public class ScoreManager : MonoBehaviour
     {
         score += coin;
         text.text = score.ToString() + "/" + totalCoins.Length;
+
+        if (score == totalCoins.Length)
+        {
+            canSwitchLevels = true;
+        }
+
+        print(canSwitchLevels);
     }
 }
