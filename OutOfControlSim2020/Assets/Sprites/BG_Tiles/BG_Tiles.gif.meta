@@ -1,7 +1,337 @@
 fileFormatVersion: 2
 guid: 7f6ca0181ebfa864eb77606d6879f564
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2539048101304972309
+    second: BG_Tiles_0
+  - first:
+      213: 5287644782451881799
+    second: BG_Tiles_1
+  - first:
+      213: 3007988890605719353
+    second: BG_Tiles_2
+  - first:
+      213: 3186715209599597351
+    second: BG_Tiles_3
+  - first:
+      213: 4050688044375044734
+    second: BG_Tiles_4
+  - first:
+      213: 8729043104308419233
+    second: BG_Tiles_5
+  - first:
+      213: 659811162996058381
+    second: BG_Tiles_6
+  - first:
+      213: 5198556081084327829
+    second: BG_Tiles_7
+  - first:
+      213: -2424508703771054027
+    second: BG_Tiles_8
+  - first:
+      213: 2366369182176676830
+    second: BG_Tiles_9
+  - first:
+      213: -7872119554149084682
+    second: BG_Tiles_10
+  - first:
+      213: -3559958086574668351
+    second: BG_Tiles_11
+  - first:
+      213: 1030990612335949005
+    second: BG_Tiles_12
+  - first:
+      213: 8410346432246481149
+    second: BG_Tiles_13
+  - first:
+      213: -497735413659594369
+    second: BG_Tiles_14
+  - first:
+      213: -19464934155327224
+    second: BG_Tiles_15
+  - first:
+      213: -7458940486020119151
+    second: BG_Tiles_16
+  - first:
+      213: -3854324455526064954
+    second: BG_Tiles_17
+  - first:
+      213: 1949775363603795163
+    second: BG_Tiles_18
+  - first:
+      213: -5878344275187493096
+    second: BG_Tiles_19
+  - first:
+      213: 9174283273549519230
+    second: BG_Tiles_20
+  - first:
+      213: 1022107702356765342
+    second: BG_Tiles_21
+  - first:
+      213: -2219575892748627856
+    second: BG_Tiles_22
+  - first:
+      213: -2303112932925728809
+    second: BG_Tiles_23
+  - first:
+      213: 6369093545801515430
+    second: BG_Tiles_24
+  - first:
+      213: -2461734614814760735
+    second: BG_Tiles_25
+  - first:
+      213: -6488883704387100523
+    second: BG_Tiles_26
+  - first:
+      213: -6565630074266334593
+    second: BG_Tiles_27
+  - first:
+      213: -1449773276429162343
+    second: BG_Tiles_28
+  - first:
+      213: -8790156477105201401
+    second: BG_Tiles_29
+  - first:
+      213: -4154481048644131898
+    second: BG_Tiles_30
+  - first:
+      213: 236846429390796460
+    second: BG_Tiles_31
+  - first:
+      213: -5540596972527105641
+    second: BG_Tiles_32
+  - first:
+      213: 1938675640744585904
+    second: BG_Tiles_33
+  - first:
+      213: -5147720381249845269
+    second: BG_Tiles_34
+  - first:
+      213: 7934544080277409398
+    second: BG_Tiles_35
+  - first:
+      213: 839893370623314501
+    second: BG_Tiles_36
+  - first:
+      213: 7982211151259559746
+    second: BG_Tiles_37
+  - first:
+      213: 7529566459798154801
+    second: BG_Tiles_38
+  - first:
+      213: -2657845510738791489
+    second: BG_Tiles_39
+  - first:
+      213: -6854373878822720188
+    second: BG_Tiles_40
+  - first:
+      213: -8176018172215077962
+    second: BG_Tiles_41
+  - first:
+      213: 1400022583255046539
+    second: BG_Tiles_42
+  - first:
+      213: -9036074415682130142
+    second: BG_Tiles_43
+  - first:
+      213: -8001306357981189236
+    second: BG_Tiles_44
+  - first:
+      213: -6370704174461838553
+    second: BG_Tiles_45
+  - first:
+      213: 1949247478195780339
+    second: BG_Tiles_46
+  - first:
+      213: -3095257219738112591
+    second: BG_Tiles_47
+  - first:
+      213: -349973886962837281
+    second: BG_Tiles_48
+  - first:
+      213: -3826194436366410064
+    second: BG_Tiles_49
+  - first:
+      213: 1688483837707992705
+    second: BG_Tiles_50
+  - first:
+      213: 2336462823970976804
+    second: BG_Tiles_51
+  - first:
+      213: -7323533788895638750
+    second: BG_Tiles_52
+  - first:
+      213: 5275406746882368299
+    second: BG_Tiles_53
+  - first:
+      213: 5204123281162016536
+    second: BG_Tiles_54
+  - first:
+      213: -3420647639393480794
+    second: BG_Tiles_55
+  - first:
+      213: 6859691384184867231
+    second: BG_Tiles_56
+  - first:
+      213: -1947286251127699146
+    second: BG_Tiles_57
+  - first:
+      213: -4205528410742431047
+    second: BG_Tiles_58
+  - first:
+      213: 6123561145104829306
+    second: BG_Tiles_59
+  - first:
+      213: 561916688550911156
+    second: BG_Tiles_60
+  - first:
+      213: -8056161161676836207
+    second: BG_Tiles_0
+  - first:
+      213: 7206291849290057652
+    second: BG_Tiles_1
+  - first:
+      213: 3641022403282431888
+    second: BG_Tiles_2
+  - first:
+      213: 165912877899701129
+    second: BG_Tiles_3
+  - first:
+      213: -4106470735199603978
+    second: BG_Tiles_4
+  - first:
+      213: -3452873111793641957
+    second: BG_Tiles_5
+  - first:
+      213: 2999379720421324817
+    second: BG_Tiles_6
+  - first:
+      213: -2462246065915519272
+    second: BG_Tiles_7
+  - first:
+      213: 6811516024671524311
+    second: BG_Tiles_8
+  - first:
+      213: 809705607114482095
+    second: BG_Tiles_9
+  - first:
+      213: 8758471861551094073
+    second: BG_Tiles_10
+  - first:
+      213: -5054158399164231558
+    second: BG_Tiles_11
+  - first:
+      213: -9121379586357812204
+    second: BG_Tiles_12
+  - first:
+      213: 876294634038757814
+    second: BG_Tiles_13
+  - first:
+      213: 6914915370045004986
+    second: BG_Tiles_14
+  - first:
+      213: -6865741164667187361
+    second: BG_Tiles_15
+  - first:
+      213: -2868057558817879491
+    second: BG_Tiles_16
+  - first:
+      213: 8598999827228066433
+    second: BG_Tiles_17
+  - first:
+      213: -7128514857817357050
+    second: BG_Tiles_18
+  - first:
+      213: 831641475211638786
+    second: BG_Tiles_19
+  - first:
+      213: -138019988931600765
+    second: BG_Tiles_20
+  - first:
+      213: 8346785697512726173
+    second: BG_Tiles_21
+  - first:
+      213: 3731109587158937000
+    second: BG_Tiles_22
+  - first:
+      213: 8942665077708040500
+    second: BG_Tiles_23
+  - first:
+      213: 1536201693553108025
+    second: BG_Tiles_24
+  - first:
+      213: -5209678999139082204
+    second: BG_Tiles_25
+  - first:
+      213: 7583589046824930545
+    second: BG_Tiles_26
+  - first:
+      213: -4645271719848546510
+    second: BG_Tiles_27
+  - first:
+      213: -3127321139513777670
+    second: BG_Tiles_28
+  - first:
+      213: 8369975803703215795
+    second: BG_Tiles_29
+  - first:
+      213: -6342931962336242438
+    second: BG_Tiles_30
+  - first:
+      213: 3357918962415152913
+    second: BG_Tiles_31
+  - first:
+      213: -3503975406934614074
+    second: BG_Tiles_32
+  - first:
+      213: -2319718761767112263
+    second: BG_Tiles_33
+  - first:
+      213: -4233861267359802272
+    second: BG_Tiles_34
+  - first:
+      213: 3674918079632265314
+    second: BG_Tiles_35
+  - first:
+      213: -1349229496329172008
+    second: BG_Tiles_36
+  - first:
+      213: 7567527154222212654
+    second: BG_Tiles_37
+  - first:
+      213: 48334819792574473
+    second: BG_Tiles_38
+  - first:
+      213: -3223783763265331713
+    second: BG_Tiles_39
+  - first:
+      213: -3590310948258039369
+    second: BG_Tiles_40
+  - first:
+      213: 2564275797588242952
+    second: BG_Tiles_41
+  - first:
+      213: 2220265466407325268
+    second: BG_Tiles_42
+  - first:
+      213: 1981745056906011354
+    second: BG_Tiles_43
+  - first:
+      213: -578817919334115086
+    second: BG_Tiles_44
+  - first:
+      213: -2487746734308488897
+    second: BG_Tiles_45
+  - first:
+      213: 6949775591692684034
+    second: BG_Tiles_46
+  - first:
+      213: -8084913170711454402
+    second: BG_Tiles_47
+  - first:
+      213: -6947545582028772232
+    second: BG_Tiles_48
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,12 +370,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 6
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,7 +415,1036 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BG_Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19234f85b14c23090800000000000000
+      internalID: -8056161161676836207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b70ab0a144e10460800000000000000
+      internalID: 7206291849290057652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f63e6b592878230800000000000000
+      internalID: 3641022403282431888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bdfd622e07d4200800000000000000
+      internalID: 165912877899701129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2f3e39f92e207c0800000000000000
+      internalID: -4106470735199603978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16da0de23ee410d0800000000000000
+      internalID: -3452873111793641957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118393ed6ffef9920800000000000000
+      internalID: 2999379720421324817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de9083af3854ddd0800000000000000
+      internalID: -2462246065915519272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d55d684cbd578e50800000000000000
+      internalID: 6811516024671524311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa163bca5f6ac3b00800000000000000
+      internalID: 809705607114482095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939d103f0c75c8970800000000000000
+      internalID: 8758471861551094073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70524bc6b50cd9b0800000000000000
+      internalID: -5054158399164231558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414a4a5e7995a6180800000000000000
+      internalID: -9121379586357812204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9067ca359392c00800000000000000
+      internalID: 876294634038757814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcdb6b64e6b6ff50800000000000000
+      internalID: 6914915370045004986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f4c3879ccf7b0a0800000000000000
+      internalID: -6865741164667187361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a494b88dc9238d0800000000000000
+      internalID: -2868057558817879491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182039d88c8c55770800000000000000
+      internalID: 8598999827228066433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c3bb518d621d90800000000000000
+      internalID: -7128514857817357050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208b876f3859a8b00800000000000000
+      internalID: 831641475211638786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e14d32d87a51ef0800000000000000
+      internalID: -138019988931600765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e9e846e5db5d370800000000000000
+      internalID: 8346785697512726173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ada9a8b66097c330800000000000000
+      internalID: 3731109587158937000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4392416028aba1c70800000000000000
+      internalID: 8942665077708040500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93426971d4fa15510800000000000000
+      internalID: 1536201693553108025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420a0866d8083b7b0800000000000000
+      internalID: -5209678999139082204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc0b8afe025e3960800000000000000
+      internalID: 7583589046824930545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f62458bfda88fb0800000000000000
+      internalID: -4645271719848546510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af126bc2ef58994d0800000000000000
+      internalID: -3127321139513777670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6485eb5a0282470800000000000000
+      internalID: 8369975803703215795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af41a7e8cf069f7a0800000000000000
+      internalID: -6342931962336242438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fad4b5189b99e20800000000000000
+      internalID: 3357918962415152913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf15f7aee06f5fc0800000000000000
+      internalID: -3503975406934614074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1ff0a9314becfd0800000000000000
+      internalID: -2319718761767112263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cdbbafb9d4e35c0800000000000000
+      internalID: -4233861267359802272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260542bd58eeff230800000000000000
+      internalID: 3674918079632265314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db02deebe2964de0800000000000000
+      internalID: -1349229496329172008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26a98f2ad1450960800000000000000
+      internalID: 7567527154222212654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908d4043348bba000800000000000000
+      internalID: 48334819792574473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdd5e56fb1d243d0800000000000000
+      internalID: -3223783763265331713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b932eff637ac2ec0800000000000000
+      internalID: -3590310948258039369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802f0657043269320800000000000000
+      internalID: 2564275797588242952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e8640ada7ffce10800000000000000
+      internalID: 2220265466407325268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2e44821a2908b10800000000000000
+      internalID: 1981745056906011354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f895784b20a7f7f0800000000000000
+      internalID: -578817919334115086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39876a968fb97dd0800000000000000
+      internalID: -2487746734308488897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc5834410927060800000000000000
+      internalID: 6949775591692684034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dddd39e4e9ccf80800000000000000
+      internalID: -8084913170711454402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c27525a1c559f90800000000000000
+      internalID: -6947545582028772232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
