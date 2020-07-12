@@ -11,7 +11,6 @@ public class Collectibles : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
-
             ScoreManager.inst.ChangeScore(coin);
         }
     }
