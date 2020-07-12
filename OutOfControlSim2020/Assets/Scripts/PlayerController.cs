@@ -36,6 +36,8 @@ public class PlayerController : MonoBehaviour
     public AudioClip teleportSound;
     public AudioClip coinSound;
 
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -124,6 +126,8 @@ public class PlayerController : MonoBehaviour
         }
 
         move = Input.GetAxis("Horizontal");
+
+        animator.SetFloat("Speed", Mathf.Abs(move)*speed);
 
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
 
