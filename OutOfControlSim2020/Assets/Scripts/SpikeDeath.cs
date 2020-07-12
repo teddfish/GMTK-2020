@@ -5,12 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SpikeDeath : MonoBehaviour
 {
+    AudioSource playerAudio;
+    public AudioClip deathSound;
+
+    private void Awake()
+    {
+        playerAudio = GetComponent<AudioSource>();
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(collision.gameObject);
-
+            playerAudio.PlayOneShot(deathSound, 0.8f);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

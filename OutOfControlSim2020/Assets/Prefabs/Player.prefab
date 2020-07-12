@@ -189,7 +189,7 @@ MonoBehaviour:
   portals: []
   jumpSound: {fileID: 8300000, guid: f18faf163f5227f489f15ba99d4c570b, type: 3}
   teleportSound: {fileID: 8300000, guid: 886f5637bfb272247b9da04b8fabb8d7, type: 3}
-  coinSound: {fileID: 8300000, guid: ce88c3a51043dfd42b99074f584cc3d4, type: 3}
+  coinSound: {fileID: 8300000, guid: d4544e1224a52e74c843df4f8b4c6335, type: 3}
 --- !u!82 &1129379582
 AudioSource:
   m_ObjectHideFlags: 0
