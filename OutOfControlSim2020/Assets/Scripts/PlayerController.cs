@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     bool isOnGround = true;
     [SerializeField]
     float fallMultiplier = 2f;
+    [SerializeField]
+    float fallSpeed = 10f;
 
 
     bool lookingRight = true;
@@ -59,18 +61,18 @@ public class PlayerController : MonoBehaviour
 
         isOnGround = Physics2D.OverlapCircle(groundCheck.position, rad, groundGround);
 
-        //if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
-        //{
-        //    Teleport();
-        //    rb.velocity = Vector2.up * jumpForce;
-        //    isOnGround = false;
-        //}
-        //print(jump);
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
+        {
+            Teleport();
+            rb.velocity = Vector2.up * jumpForce;
+            isOnGround = false;
+        }
+        print(jump);
 
-        //if (rb.velocity.y > 0)
-        //{
-        //    rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        //}
+        if (rb.velocity.y > 0)
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
 
         //inputWaitTimer += Time.deltaTime;
 
@@ -88,18 +90,24 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
-        {
-            Teleport();
-            rb.velocity = Vector2.up * jumpForce;
-            isOnGround = false;
-        }
+        //if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
+        //{
+        //    Teleport();
+        //    rb.velocity = Vector2.up * jumpForce;
+        //    isOnGround = false;
+        //}
 
-        if (rb.velocity.y > 0)
-        {
-            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }
+        //if (rb.velocity.y > 0)
+        //{
+        //    rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        //}
         //print(move);
+
+        // to control the fall speed bug
+        if (rb.velocity.magnitude > fallSpeed)
+        {
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, fallSpeed);
+        }
 
         move = Input.GetAxis("Horizontal");
 
