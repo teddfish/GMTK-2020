@@ -69,6 +69,9 @@ public class PlayerController : MonoBehaviour
         } */
 
         isOnGround = Physics2D.OverlapCircle(groundCheck.position, rad, groundGround);
+        
+        animator.SetBool("IsJumping", !isOnGround);
+      
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
         {
@@ -76,6 +79,7 @@ public class PlayerController : MonoBehaviour
             Teleport();
             rb.velocity = Vector2.up * jumpForce;
             isOnGround = false;
+            animator.SetBool("IsJumping", true);
         }
         //print(jump);
 
