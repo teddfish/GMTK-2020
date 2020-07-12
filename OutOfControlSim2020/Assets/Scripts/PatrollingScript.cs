@@ -36,4 +36,12 @@ public class PatrollingScript : MonoBehaviour
         Gizmos.DrawRay(groundDetection.position, Vector2.down);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(collision.gameObject);
+        }
+    }
+
 }
