@@ -191,7 +191,7 @@ PrefabInstance:
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
@@ -928,7 +928,7 @@ PrefabInstance:
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee361254ff7d60a4fb1ba851b86b7764, type: 3}
@@ -5093,7 +5093,7 @@ PrefabInstance:
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.05
+      value: 11.05
       objectReference: {fileID: 0}
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
@@ -5148,7 +5148,7 @@ PrefabInstance:
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee361254ff7d60a4fb1ba851b86b7764, type: 3}
@@ -6221,7 +6221,7 @@ PrefabInstance:
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
@@ -6276,7 +6276,7 @@ PrefabInstance:
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 882920110430940283, guid: ee361254ff7d60a4fb1ba851b86b7764,
         type: 3}
